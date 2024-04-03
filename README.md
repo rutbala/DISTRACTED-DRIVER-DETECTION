@@ -41,6 +41,7 @@ Modules used:-
 Result:-
 
 All models were trained using the Adam optimizer, set at a learning rate of 0.001. We employed Sparse Categorial Cross entropy as our loss function, couple with a SoftMax activation function in the final output layer. The use of ‘Sparse” was dictated by our class representation, which was numeric rather than one-hot encoded.
+
 ![image](https://github.com/rutbala/DISTRACTED-DRIVER-DETECTION/assets/165860969/b78329ff-7228-4ef5-9b1a-a794ae37cccd)
 
 ![image](https://github.com/rutbala/DISTRACTED-DRIVER-DETECTION/assets/165860969/398bd2d4-4b11-497e-8d3e-f58334aff579)
