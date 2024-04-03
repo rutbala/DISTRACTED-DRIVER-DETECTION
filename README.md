@@ -72,7 +72,7 @@ ResNet results- First shows training and validation loss per epoch and second sh
 
 Every model’s result plotted together- First shows test loss per epoch, and second shows test accuracy.
 
-These Figures present the training and validation losses and accuracies for our Baseline, MobileNet, VGG and ResNet models, respectively, with Figure 8 providing a comparative overview. Notably, ResNet, MobileNet, and VGG training were halted early due to stagnation over four epochs, while our baseline model continued for an additional 10 epochs. This extended training period is attributed to the baseline’s larger parameter space allowing for incremental improvements.
+These Figures present the training and validation losses and accuracies for our Baseline, MobileNet, VGG and ResNet models, respectively, with the last Figure providing a comparative overview. Notably, ResNet, MobileNet, and VGG training were halted early due to stagnation over four epochs, while our baseline model continued for an additional 10 epochs. This extended training period is attributed to the baseline’s larger parameter space allowing for incremental improvements.
 
 The results demonstrated the feasibility of achieving over 95% accuracy in both training and testing. VGG emerged as the most effective model, marginally outperforming the baseline model, followed by MobileNet and ResNet. VGG’s depth, even with fixed CNN features, provided sufficient high-level information for complex decision-making. Our baseline model, though less parameterized that VGG was specially trained for this task, resulting in high accuracy. MobileNet, while less accurate, offered a significant computational speed advantage, which could be crucial in real-time applications prioritizing frame rate over accuracy.
 
