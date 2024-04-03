@@ -1,5 +1,5 @@
 # DISTRACTED-DRIVER-DETECTION
-In this project, we developed a Deep Learning Classification model capable of detecting driver behavior from images captured by dashboard cameras in automobiles.
+In this project, I developed a Deep Learning Classification model capable of detecting driver behavior from images captured by dashboard cameras in automobiles.
 The model indicates whether the driver is:
    1. Driving cautiously and paying attention to the road. 
    2. Using mobile phone.
