@@ -2,19 +2,21 @@
 
 Introduction:-
 
-In this project, I developed a Deep Learning Classification model capable of detecting driver behavior from images captured by dashboard cameras in automobiles.
-The model indicates whether the driver is:
-   1. Driving cautiously and paying attention to the road. 
-   2. Using mobile phone.
-   3. Distracted by doing other activities like operating the radio, drinking etc.
-      
-Distracted driving results in numerous collisions, injuries, and fatalities. Our primary objective is to enhance road safety by employing technology to identify drivers who are distracted. To train the model, we provided it with a dataset containing various actions of the driver. After that, we evaluated the application to ensure optimal functionality. If effective, this might help improve road safety and save lives by reducing the occurrence of accidents involving distracted drivers.
+In this project, I developed a deep learning classification model leveraging advanced computer vision techniques to detect driver behavior from images captured by dashboard cameras. The model utilizes Convolutional Neural Networks (CNNs) to accurately classify driver actions into categories such as attentive driving, mobile phone usage, and other distractions, including operating the radio or drinking. By training on a comprehensive labeled dataset of driver behaviors, the model effectively identifies distracted driving with high precision. Our objective is to enhance road safety through AI-powered real-time monitoring, aiming to reduce accidents and fatalities by proactively detecting and addressing risky driver behaviors. This AI-driven solution represents a significant step toward improving traffic safety and preventing collisions caused by distracted driving.
 
 Dataset:-
 
-Kaggle, an online platform for data science competitions, offers datasets for cutting-edge algorithmic challenges in sectors less exposed to AI advancements. It provides a platform to understand datasets deeply and offers opportunities like internships and awards for students. We utilize a dataset from a completed State Farm challenge, which includes hundreds of images depicting various actions performed by multiple individuals.
-
 link- https://www.kaggle.com/competitions/state-farm-distracted-driver-detection
+
+Modules used:-
+
+CNN (Baseline): A fundamental deep learning model for image processing, featuring Conv2D layers for feature extraction, MaxPooling for downsampling, and Fully Connected Layers for decision-making.
+
+MobileNet: A lightweight model optimized for mobile and edge devices, using depth-wise separable convolutions to reduce computational complexity while maintaining accuracy, ideal for resource-constrained environments.
+
+ResNet: A deep learning architecture known for residual learning, utilizing residual blocks to address the vanishing gradient problem, enabling the training of very deep networks with enhanced feature extraction.
+
+VGG: A popular image classification model, characterized by its simple and uniform structure, consisting of 3x3 convolutional layers, ReLU activations, and max pooling, offering ease of implementation and effective performance.
 
 ![image](https://github.com/rutbala/DISTRACTED-DRIVER-DETECTION/assets/165860969/3c3ebdef-5eb9-4b24-acee-3d7e930864e9)
 
@@ -27,16 +29,6 @@ Number of Images per subject
 ![image](https://github.com/rutbala/DISTRACTED-DRIVER-DETECTION/assets/165860969/37956160-de95-4db3-8d25-1351774614af)
 
 Distribution of classes
-
-Modules used:-
-
-1. CNN (Base Line) - The Convolutional Neural Network (CNN) baseline model is a fundamental architecture for image processing. It comprises convolutional layers (Conv2D) that extract essential features, such as edges and patterns, from images. MaxPooling layers assist in downsampling and simplifying information, while Fully Connected Layers make decisions based on the extracted features.
-
-2.MobileNet - MobileNet is a lightweight deep learning model designed for mobile and edge devices. It features depth-wise separable convolutions, where standard convolutions are split into depth-wise and point-wise convolutions. This architecture reduces computational complexity while maintaining accuracy, making it suitable for resource-constrained environments.
-
-3.ResNet - Residual Networks (ResNet) are known for introducing residual learning, addressing the vanishing gradient problem in deep neural networks. It utilizes residual blocks, allowing the model to skip connections and learn residual functions. This architecture facilitates the training of very deep networks, promoting better feature extraction and representation.
-
-4.VGG - The Visual Geometry Group (VGG) architecture is characterized by its simplicity and uniform structure. It consists of repeated blocks of convolutional layers with small 3x3 filters, ReLU activations, and max pooling. This straightforward design facilitates understanding and implementation, making it a popular choice for image classification tasks.
 
 Result:-
 
